@@ -1,0 +1,57 @@
+{
+  "name": "demo02",
+  "version": "1.0.0",
+  "description": "",
+  "sideEffects": [
+    "*.scss",
+    "*.css"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "test": "jest test/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "ejs-loader": "^0.3.3",
+    "file-loader": "^4.2.0",
+    "glob": "^7.1.4",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^4.0.0-alpha.2",
+    "imports-loader": "^0.8.0",
+    "jest": "^24.8.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^3.1.0",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.7.2",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "@babel/runtime-corejs3": "^7.5.5",
+    "html5shiv": "^3.7.3",
+    "jquery": "^3.4.1",
+    "respond": "^0.9.0",
+    "xdomain": "^0.8.2"
+  }
+}
